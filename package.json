@@ -1,0 +1,16 @@
+{
+  "name": "raygun-test",
+  "version": "0.0.0",
+  "description": "Test build for samme/raygun",
+  "main": "jsdoc-conf.json",
+  "scripts": {
+    "build": "jsdoc node_modules/lodash/lodash.js -c ./jsdoc-conf.json --verbose",
+    "postbuild": "open docs/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lodash": "^4.17.4"
+  }
+}
